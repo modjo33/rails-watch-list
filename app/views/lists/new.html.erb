@@ -1,0 +1,7 @@
+<!-- app/views/bookmarks/new.html.erb -->
+
+<%= form_with model: @lists do |f| %>
+  <!-- Form fields for @bookmark (movie_id, comment) -->
+    <%= f.label :movie_id %>
+    <%= f.text_field :movie_id %>
+  <% end %>
